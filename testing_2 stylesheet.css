@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px 0 0 0;
+    border-right: 50px solid #13d1b8;
+    border-bottom: 50px solid #13d1b8;
+    border-left: 50px solid #13d1b8;
+    background: #011627;
+    color: white;
+}
+
+h1, h2{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif, Arial;
+    font-weight: normal;
+}
+
+#space\ between\ headings{
+    margin: 20px;
+}
+
+#space\ between\ second\ heading\ and\ first\ paragraph{
+    margin: 60px;
+}
+
+#one, #two{
+    margin: 50px 80px 30px 80px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+#sign_up{
+    margin: 60px 20px 40px 20px;
+    text-align: center;
+    font-family: sans-serif, Arial;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    font-family: sans-serif, Calibri;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: double;
+}
+
+#sign_up_button{
+    margin-top: 20px;
+    width: 140px;
+    height: 70px;
+    font-size: 20px;
+    background: orange;
+    border-radius: 20px;
+    border-style: double;
+    cursor: pointer;
+}
+
+#sign_up_button:hover{
+    background: lightgreen;
+    border: 2px solid darkgreen;
+}
+
+#copyright{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: right;
+}

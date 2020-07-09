@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anmol is a legend!!</title>
+    <title>Udemy_Assignment</title>
+    <link rel="stylesheet" href="anm_1_css.css">
 </head>
 <body>
-Anmol is a good boy. He was born on 2nd Oct. His birthday is celebrated across India.
+<h1>Course Sign Up Page</h1>
+
+<p class="para_1">Please Note: First Name, Last Name, Password, and Email are required</p>
+<p></p>
+<form action="anm_1.html" method="get" target="_blank">
+    <label for="first_name">First Name:</label>
+    <input id="first_name" type="text" placeholder="First Name" required>
+    <label for="last_name">Last Name:</label>
+    <input id="last_name" type="text" placeholder="Last Name" required>
+    <p>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="name@email.com" required>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Password" required>
+    </p>
+    <p>Are you over the age of 18?</p>
+    <p>
+        <label class="yes" for="yes">Yes:</label>
+        <input class="radio_button" id="yes" type="radio" name="age_feedback" required>
+        <label class="no" for="no">No:</label>
+        <input class="radio_button" id="no" type="radio" name="age_feedback">
+    </p>
+    <p>
+        Do you have a Credit Card or PayPal?
+    </p>
+    <label for="payment options"></label>
+    <select id="payment options">
+        <option name="credit_card">Credit Card</option>
+        <option name="Paypal">Paypal</option>
+    </select>
+    <p>
+        <input class="submission" type="submit" value="Submit Feedback">
+    </p>
+</form>
+<footer>
+    <h3>Follow us on</h3>
+    <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+</footer>
 </body>
 </html>

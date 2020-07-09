@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    background-color: green;
+    padding: 5px;
+    border: 2px solid darkorange;
+    margin: 10px 20px 10px 20px;
+    width: 400px;
+    height: 250px;
+    overflow: auto;
+}
+
+#content{
+    background-color: red;
+}

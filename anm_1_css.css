@@ -1,0 +1,49 @@
+footer li{
+    list-style: none;
+}
+
+a:link{
+    color: blue;
+    background: lightblue;
+    text-decoration: none;
+    border: 5px solid darkred;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin-bottom: 2px;
+}
+
+a:visited{
+    color: red;
+    border: 5px solid darkred;
+}
+
+a:hover{
+    color: darkgreen;
+    background: yellow;
+    cursor: pointer;
+}
+
+a:active{
+    color: black;
+    background: greenyellow;
+}
+
+.submission{
+    background: #0088ff;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.submission:hover{
+    background: black;
+}
+
+.yes:hover, .no:hover{
+    cursor: pointer;
+}
+
+.radio_button{
+    cursor: pointer;
+}
