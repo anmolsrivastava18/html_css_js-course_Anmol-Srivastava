@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: purple;
+}
+
+#container{
+    background: lightgreen;
+    margin: 10px;
+}
+
+p{
+    width: 70px;
+    height: 70px;
+    border: 2px solid darkgreen;
+    margin: 50px;
+}
+
+#one{
+    background: lightblue;
+}
+
+#two{
+    background: lightsalmon;
+}
+
+#three{
+    background: lightgrey;
+}
+
+#four{
+    background: lightpink;
+}

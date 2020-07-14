@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.row > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 20px;
+    color: black;
+    background: lightpink;
+    border: 2px solid darkgreen;
+}
+
+#first_col{
+    width: 200px;
+}

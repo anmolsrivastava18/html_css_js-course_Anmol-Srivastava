@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+#first{
+    background: darkorange;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#second{
+    background: blueviolet;
+    border: 5px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+@media(min-width: 1200px){
+    #first{
+        background: lightcoral;
+        width: 80%;
+    }
+
+    #second{
+        background: lightgrey;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    #first{
+        background: lightyellow;
+        width: 60%;
+    }
+
+    #second{
+        background: blue;
+        width: 250px;
+        height: 250px;
+    }
+}
