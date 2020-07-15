@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    position: absolute;
+    background: url("restaurant_image.jpg") no-repeat;
+    background-size: cover;
+}
+
+.image_container{
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    margin: auto;
+    margin-top: 42.5%;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#container_1, #container_2, #container_3{
+    padding: 10px
+}
+
+#Indian, #Continental, #Italian{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 0;
+}
+
+#Indian{
+    background: darkblue;
+}
+
+#Continental{
+    background: darkmagenta;
+}
+
+#Italian{
+    background: #721c24;
+}
+
+p{
+    clear: right;
+    font-size: 16px;
+    font-family: cursive;
+    border: 2px solid black;
+    height: auto;
+    padding: 40px 10px 10px 10px
+}
+
+#container_1 > p{
+    background: lightgoldenrodyellow;
+}
+
+#container_2 > p{
+    background: lightsalmon;
+}
+
+#container_3 > p{
+    background: lightgray;
+    margin-bottom: 40px;
+}
+
+.row{
+    float: left;
+}
+
+@media(min-width: 992px) {
+    .col-desktop-4{
+        width: 33.33%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .col-tablet-6{
+        width: 50%;
+    }
+}
+
+@media(max-width: 767px) {
+    .col-mobile-12{
+        width: 100%;
+    }
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#copyright{
+    margin: auto;
+    text-align: right;
+    font-family: sans-serif, "Times New Roman";
+    font-size: 14px;
+    border: none;
+}
