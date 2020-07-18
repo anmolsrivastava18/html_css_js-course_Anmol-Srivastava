@@ -1,0 +1,91 @@
+body{
+    position: relative;
+    background: #b30243;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.navbar{*/
+/*    height: 100px;*/
+/*}*/
+
+.background{
+    background: #ffae00;
+}
+
+#image-container:hover{
+    transform: scale(1.1);
+}
+
+#business_name{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+a:hover #business_name{
+    color: #b30243;
+}
+
+#certification{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 2, 67, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    border: 2px solid #b30243;
+}
+
+#nav-list{
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.material-icons{
+    color: #b30243;
+}
+
+.material-icons:hover{
+    color: black;
+    font-size: 28px;
+}
+
+.icon_name{
+    position: relative;
+    top: -7.5px;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-item{
+    margin: 5px;
+}
+
+.nav-item .icon_name:hover{
+    color: darkblue;
+}
+
+.jumbotron-fluid{
+    padding: 5px;
+    background: #b30243;
+}
+
+.restaurant_pic{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    box-shadow: 5px 5px #800d38;
+    width: 1200px;
+}
