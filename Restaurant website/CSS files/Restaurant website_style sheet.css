@@ -1,3 +1,5 @@
+/*Main page styles start here*/
+
 /*Setting the box-sizing to be border-box for all the elements*/
 *{
     box-sizing: border-box;
@@ -278,3 +280,60 @@ hr {
         text-align: center;
     }
 }
+
+/*Main page styles end here*/
+
+
+
+/*Menu categories page styles start here*/
+
+.menu_category{
+    margin: auto;
+    border: 1px solid black;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+#breakfast_tile span, #Lunch_tile span, #Snacks_tile span, #Dinner_tile span,
+#Pizza_tile span, #Beverages_tile span, #Burgers_tile span, #ChineseFood_tile span{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.55);
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.map{
+    margin-top: 20px;
+}
+
+#heading{
+    background: white;
+    text-align: center;
+    color: #b30243;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    border: 2px double black;
+    border-radius: 8px;
+    margin: auto auto 20px;
+}
+
+.contact_info_container{
+    margin-bottom: 20px;
+}
+/*Menu categories page styles end here*/
