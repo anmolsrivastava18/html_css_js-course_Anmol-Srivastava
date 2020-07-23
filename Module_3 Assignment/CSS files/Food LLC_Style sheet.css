@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background: #face2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    background: lightgray;
+}
+
+#business_name{
+    position: relative;
+    left: 10px;
+    font-family: 'Lora', serif;
+    color: darkblue;
+}
+
+a:hover #business_name{
+    color: #b30243;
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 139, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 2px solid darkblue;
+}
+
+#nav-list{
+    margin: 10px 0 -20px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#nav-list li{
+    background: #b30243;
+}
+
+.nav-item{
+    margin: 1px 0 0 0;
+}
+
+.nav-item .icon_name:hover{
+    color: darkblue;
+}
+
+.nav-link{
+    padding: 5px;
+}
+
+.icon_name{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+#heading{
+    background: #b30243;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 28px;
+    width: 250px;
+    height: 50px;
+    border: 2px double darkblue;
+    border-radius: 8px;
+    margin: auto auto 40px;
+    padding: 7px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    position: relative;
+}
+
+#chicken ,#beef, #sushi{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    padding: auto;
+    text-align: center;
+    background: darkblue;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif, "Times New Roman";
+    font-style: italic;
+}
+
+.description{
+    padding-top: 50px;
+    text-align: center;
+    background: #b30243;
+    color: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+section a{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+#copyright{
+    color: darkblue;
+    font-family: sans-serif, "Times New Roman";
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
