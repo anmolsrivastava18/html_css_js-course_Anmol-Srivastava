@@ -45,7 +45,7 @@ WARNING!!! WARNING!!!
     }
 })();
 
-
+alert("Thank you so much for reviewing my assignment :) Press OK");
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
