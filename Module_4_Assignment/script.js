@@ -43,9 +43,9 @@ WARNING!!! WARNING!!!
             helloSpeaker.speak(item)
         }
     }
+    alert("Thank you so much for reviewing my assignment :) Press OK");
 })();
 
-alert("Thank you so much for reviewing my assignment :) Press OK");
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
