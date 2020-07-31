@@ -1,0 +1,78 @@
+/*Creating general styles for the page*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.jumbotron{
+    background: lightsteelblue;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.display-4{
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif, "Times New Roman";
+    font-weight: bolder;
+    font-size: 34px;
+    color: darkblue;
+}
+
+.lead{
+    margin-top: 30px;
+    text-align: center;
+    color: darkblue;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+/*Adding styles to the table*/
+
+.my_table{
+    table-layout: fixed;
+    text-align: center;
+    margin: 60px auto auto;
+    padding: 0;
+}
+
+td{
+    padding: 0;
+    margin: 0;
+    height: 140px;
+    width: 140px;
+    border: 5px solid darkblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+/*td div{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    margin: 0;*/
+/*}*/
+/*Creating styles for the play again button*/
+
+#Restart{
+    text-align: center;
+    margin: 40px auto 40px;
+}
+
+
+/*Creating styles for the copyright*/
+#copyright{
+    color: darkblue;
+    font-family: sans-serif, "Times New Roman";
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
