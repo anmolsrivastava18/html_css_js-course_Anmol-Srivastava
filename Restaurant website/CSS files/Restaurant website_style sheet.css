@@ -40,35 +40,67 @@ a:hover #business_name{
 }
 
 #nav-list{
-    float: right;
+    /*float: right;*/
     margin: 10px 0 auto auto;
     font-size: 20px;
     text-align: center;
 }
 
-.material-icons{
+.large_screen .material-icons{
     color: #b30243;
 }
 
+.not_large_screen .material-icons{
+    color: #ffae00;
+}
+
 ul .material-icons:hover{
-    color: black;
+    color: darkblue;
     font-size: 28px;
 }
 
-.icon_name{
+.large_screen .icon_name{
+    position: relative;
+    top: -7.5px;
+    color: #b30243;
+    font-size: 14px;
+    font-family: sans-serif, "Times New Roman";
+}
+
+.not_large_screen .icon_name{
+    position: relative;
+    top: -7.5px;
+    color: #ffae00;
+    font-size: 14px;
+    font-family: sans-serif, "Times New Roman";
+}
+
+.nav-item .icon_name:hover{
+    color: darkblue;
+}
+
+.nav-item.not_large_screen{
+    background: #b30243;
+    margin-top: 2px;
+}
+
+.contact_icon_name{
+    margin-left: 5px;
     position: relative;
     top: -7.5px;
     color: black;
     font-size: 14px;
 }
 
-.nav-item{
-    margin: 5px;
+#contact_us .material-icons{
+    color: #b30243;
 }
-
-.nav-item .icon_name:hover{
-    color: darkblue;
+/*To be edited*/
+.nav-item .large_screen{
+    margin: 2px 0 0;
+    /*background: #b30243;*/
 }
+/*To be edited*/
 
 header{
     margin-bottom: 30px;
