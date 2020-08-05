@@ -1,0 +1,370 @@
+/*Main page styles start here*/
+
+/*Setting the box-sizing to be border-box for all the elements*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background: #b30243;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    background: #ffae00;
+}
+
+#image-container:hover{
+    transform: scale(1.1);
+}
+
+#business_name{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+a:hover #business_name{
+    color: #b30243;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 2, 67, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    border: 2px solid #b30243;
+}
+
+#nav-list{
+    /*float: right;*/
+    margin: 10px 0 auto auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.large_screen .material-icons{
+    color: #b30243;
+}
+
+.not_large_screen .material-icons{
+    color: #ffae00;
+}
+
+ul .material-icons:hover{
+    color: darkblue;
+    font-size: 28px;
+}
+
+.large_screen .icon_name{
+    position: relative;
+    top: -7.5px;
+    color: #b30243;
+    font-size: 14px;
+    font-family: sans-serif, "Times New Roman";
+}
+
+.not_large_screen .icon_name{
+    position: relative;
+    top: -7.5px;
+    color: #ffae00;
+    font-size: 14px;
+    font-family: sans-serif, "Times New Roman";
+}
+
+.nav-item .icon_name:hover{
+    color: darkblue;
+}
+
+.nav-item.not_large_screen{
+    background: #b30243;
+    margin-top: 2px;
+}
+
+.contact_icon_name{
+    margin-left: 5px;
+    position: relative;
+    top: -7.5px;
+    color: black;
+    font-size: 14px;
+}
+
+#contact_us .material-icons{
+    color: #b30243;
+}
+/*To be edited*/
+.nav-item .large_screen{
+    margin: 2px 0 0;
+    /*background: #b30243;*/
+}
+/*To be edited*/
+
+header{
+    margin-bottom: 30px;
+}
+
+#contact_us{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*Removing the padding from the container class*/
+.container{
+    padding: 0;
+}
+
+.contact_info_container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffae00;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 80%;
+}
+
+#tel_no\., #delivery_msg{
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b30243;
+}
+
+#delivery_msg{
+    font-size: 14px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.contact_info_container:hover{
+    box-shadow: 0 1px 5px 1px lightgrey;
+}
+
+.jumbotron-fluid{
+    padding: 5px;
+    background: #b30243;
+}
+
+.restaurant_pic{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px #800d38;
+    width: 1200px;
+}
+
+.tile-item{
+    margin: auto;
+    border: 1px solid black;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+
+.tile_name{
+    position: relative;
+}
+
+#menu_tile span, #special_tile span, #map_tile span{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.img-thumbnail:hover{
+    box-shadow: 0 1px 5px 1px lightgrey;
+}
+
+#tiles{
+    margin-bottom: 30px;
+}
+
+#map_tile span{
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    bottom: 7px;
+}
+
+.tile{
+    margin-bottom: 30px;
+}
+
+/*Footer styling starts here*/
+
+footer .row{
+    margin-bottom: 30px;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+footer span{
+    font-family: sans-serif, "Times New Roman";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+#copyright{
+    font-family: sans-serif, "Times New Roman";
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 90%;
+    background-color: white;
+    height: 1px;
+}
+
+/*Footer styling ends here*/
+
+@media(min-width: 768px) and (max-width: 991px){
+    .tile-item{
+        height: 220px;
+    }
+
+    .restaurant_pic{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 767px) {
+    .tile{
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .tile-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 160px;
+    }
+
+    .restaurant_pic{
+        margin-bottom: 20px;
+    }
+
+    #menu_tile span, #special_tile span{
+        font-size: 18px;
+        height: 28px;
+        width: auto;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    #map_tile{
+        width: 90%;
+        height: 200px;
+    }
+
+    footer span{
+        font-family: sans-serif, "Times New Roman";
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-justify: distribute-center-last;
+        text-align: center;
+    }
+}
+
+/*Main page styles end here*/
+
+
+
+/*Menu categories page styles start here*/
+
+.menu_category{
+    margin: auto;
+    border: 1px solid black;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.food_tile span{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.55);
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.map{
+    margin-top: 20px;
+}
+
+#heading{
+    background: white;
+    text-align: center;
+    color: #b30243;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    border: 2px double black;
+    border-radius: 8px;
+    margin: auto auto 20px;
+}
+
+.contact_info_container{
+    margin-bottom: 20px;
+}
+/*Menu categories page styles end here*/
