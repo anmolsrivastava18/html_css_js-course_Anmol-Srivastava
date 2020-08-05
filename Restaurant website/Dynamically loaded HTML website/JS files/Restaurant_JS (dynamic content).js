@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     (function (global) {
         let restaurant = {};
-        let homeContent_link = "/Restaurant%20website/Dynamically%20loaded%20HTML%20website/" +
+        let homeContent_link = "https://anmolsrivastava18.github.io/html_css_js-course_Anmol-Srivastava/Restaurant%20website/Dynamically%20loaded%20HTML%20website/" +
             "HTML%20files/Main%20page_HTML%20content%20snippet.html";
         let allCategories_url = "http://davids-restaurant.herokuapp.com/categories.json";
-        let menuHeading_snippetURL = "/Restaurant%20website/Dynamically%20loaded%20" +
+        let menuHeading_snippetURL = "https://anmolsrivastava18.github.io/html_css_js-course_Anmol-Srivastava//Restaurant%20website/Dynamically%20loaded%20" +
             "HTML%20website/HTML%20files/Menu%20categories_heading.html";
-        let menuContent_URL = "/Restaurant%20website/Dynamically%20loaded%20HTML%20website/" +
+        let menuContent_URL = "https://anmolsrivastava18.github.io/html_css_js-course_Anmol-Srivastava//Restaurant%20website/Dynamically%20loaded%20HTML%20website/" +
             "HTML%20files/Menu%20categories_HTML%20content%20snippet.html";
 
         // The following function object will make handle the process of inserting the html content
