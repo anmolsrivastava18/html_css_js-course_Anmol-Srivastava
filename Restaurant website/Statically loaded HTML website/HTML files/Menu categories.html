@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Menu categories</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../CSS%20files/Restaurant%20website_style%20sheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <script src="../JS%20files/Restaurant_JS%20(static%20content).js"></script>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg background">
+        <a class="navbar-brand" href="Main%20page_Static%20HTML%20content.html">
+            <div id="image-container">
+                <img src="../../Images/restaurant%20logo.jpg" width="100px" height="80px" class="d-none d-sm-block align-top"
+                     alt="Restaurant logo">
+            </div>
+        </a>
+
+        <div class="Restaurant_info">
+            <a class="navbar-brand d-block d-sm-none" href="Main%20page_Static%20HTML%20content.html">
+                <span id="business_name">Anmol's cafe</span>
+            </a>
+            <div id="contact_us" class="d-none d-sm-block">
+                <span class="material-icons">phone</span><span class="contact_icon_name">8700852412</span><br>
+                <span class="material-icons">mail</span><span class="contact_icon_name">anmolsrivastava18@gmail.com</span><br>
+            </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul id="nav-list" class="navbar-nav">
+                <li class="nav-item active d-none d-lg-block d-xl-block large_screen">
+                    <a class="nav-link" href="Menu%20categories.html"><span class="material-icons">restaurant</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">Menu</span></a>
+                </li>
+                <li class="nav-item active d-lg-none d-xl-none not_large_screen">
+                    <a class="nav-link" href="Menu%20categories.html"><span class="material-icons">restaurant</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">Menu</span></a>
+                </li>
+
+
+                <li class="nav-item d-none d-lg-block d-xl-block large_screen">
+                    <a class="nav-link" href="#"><span class="material-icons">info</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">About</span></a>
+                </li>
+                <li class="nav-item d-lg-none d-xl-none not_large_screen">
+                    <a class="nav-link" href="#"><span class="material-icons">info</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">About</span></a>
+                </li>
+
+
+                <li class="nav-item d-none d-lg-block d-xl-block large_screen">
+                    <a class="nav-link" href="#"><span class="material-icons">emoji_events</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">Awards</span></a>
+                </li>
+                <li class="nav-item d-lg-none d-xl-none not_large_screen">
+                    <a class="nav-link" href="#"><span class="material-icons">emoji_events</span>
+                        <br class="icon_name d-none d-lg-block d-xl-block"><span class="icon_name">Awards</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid">
+
+        <a id="contact_info" href="tel: 8700852412">
+            <div class="contact_info_container d-block d-sm-none">
+                <span id="tel_no.">8700852412</span>
+                <div id="delivery_msg">*We provide home delivery too :)</div>
+            </div>
+        </a>
+
+    <h1 id="heading" class="align-content-center">Menu categories</h1>
+
+    <div id="tiles" class="container-fluid">
+        <div class="row">
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="breakfast_tile">
+                        <img src="../../Images/Menu%20categories/Breakfast_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Breakfast">
+                        <div class="tile_name">
+                            <span>Breakfast</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            ​
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Lunch_tile">
+                        <img src="../../Images/Menu%20categories/Lunch_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Lunch">
+                        <div class="tile_name">
+                            <span>Lunch</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Snacks_tile">
+                        <img src="../../Images/Menu%20categories/Snacks_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Snacks">
+                        <div class="tile_name">
+                            <span>Snacks</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Dinner_tile">
+                        <img src="../../Images/Menu%20categories/Dinner_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Dinner">
+                        <div class="tile_name">
+                            <span>Dinner</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Pizza_tile">
+                        <img src="../../Images/Menu%20categories/Pizzas_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Pizzas">
+                        <div class="tile_name">
+                            <span>Pizzas</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Burgers_tile">
+                        <img src="../../Images/Menu%20categories/Burgers_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Burgers">
+                        <div class="tile_name">
+                            <span>Burgers</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="ChineseFood_tile">
+                        <img src="../../Images/Menu%20categories/ChineseFood_image.jpg" class="img-fluid img-thumbnail menu_category" alt="ChineseFood">
+                        <div class="tile_name">
+                            <span>Chinese</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tile col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <div id="Beverages_tile">
+                        <img src="../../Images/Menu%20categories/Beverages_image.jpg" class="img-fluid img-thumbnail menu_category" alt="Beverages">
+                        <div class="tile_name">
+                            <span>Beverages</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="map col-12">
+            <a href="https://goo.gl/maps/YHaGXjbwJFM2GxoG8" target="_blank">
+                <div id="map_tile" class="tile-item img-fluid img-thumbnail">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14005.162933475505!2d77.47395542362644!3d28.65101224898329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1saditya%20world%20city!5e0!3m2!1sen!2sin!4v1595264495718!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="tile_name">
+                        <span>Map</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="card-footer">
+        <div class="container">
+            <div class="row">
+                <section id="Hours" class="col-md-4">  <!--Beginning of thr "Hours" section-->
+                    <span>Hours:</span>
+                    <p>
+                        Mon-Fri: 11:00 am to 8:00 pm<br>
+                        Sat: 11:00 am to 5:00 pm<br>
+                        Sunday: Closed
+                    </p>
+                </section>
+
+                <hr class="d-md-none d-lg-none d-xl-none">
+
+                <section id="Address" class="col-md-4">  <!--Beginning of the "Address" section-->
+                    <span>Address:</span>
+                    <p>
+                        2nd floor, Plot no. 70, Sector-1<br>
+                        Aditya World City, NH-24<br>
+                        Ghaziabad, UP
+                    </p>
+                </section>  <!--End of the address section-->
+
+                <hr class="d-md-none d-lg-none d-xl-none">
+
+                <section id="Testimonials" class="col-md-4">
+                    <span>Customer review:</span>
+                    <p>
+                        "Anmol's cafe is a really good restaurant. Very calm and relaxing environment. Food
+                         is great... yummy!!!"
+                    </p>
+                </section>
+            </div>
+            <p id="copyright">&copy;Anmol Srivastava 2020</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
