@@ -27,7 +27,7 @@ let insertHtml = function (selector, html) {
 
 // Show loading icon inside element identified by 'selector'.
 let showLoading = function (selector) {
-  let html = "<div class='text-center'><img src='/Module_5_Assignment/images/ajax-loader.gif' alt='Loader_GIF'></div>";
+  let html = "<div class='text-center'><img src='/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/images/ajax-loader.gif' alt='Loader_GIF'></div>";
   insertHtml(selector, html);
 };
 
