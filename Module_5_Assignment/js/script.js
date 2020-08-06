@@ -11,13 +11,13 @@ $(function () {
 
 let dc = {};
 
-const homeHtmlUrl = "/Module_5_Assignment/snippets/home-snippet.html";
+const homeHtmlUrl = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/home-snippet.html";
 const allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
-const categoriesTitleHtml = "/Module_5_Assignment/snippets/categories-title-snippet.html";
-const categoryHtml = "/Module_5_Assignment/snippets/category-snippet.html";
+const categoriesTitleHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/categories-title-snippet.html";
+const categoryHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/category-snippet.html";
 const menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-const menuItemsTitleHtml = "/Module_5_Assignment/snippets/menu-items-title.html";
-const menuItemHtml = "/Module_5_Assignment/snippets/menu-item.html";
+const menuItemsTitleHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/menu-items-title.html";
+const menuItemHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 let insertHtml = function (selector, html) {
