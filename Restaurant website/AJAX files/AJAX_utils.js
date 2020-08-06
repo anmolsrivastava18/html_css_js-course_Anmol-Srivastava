@@ -11,7 +11,7 @@
     ajax_utils.send_GET_request = function (required_url, response_handler, isJSONResponse) {
         let request = get_request_object();
         request.open("GET", required_url, true);
-        request.send(null);
+        request.send();
 
 
         function handle_response(request, response_handler, isJSONResponse) {
