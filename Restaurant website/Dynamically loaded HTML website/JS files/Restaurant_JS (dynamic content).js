@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         // The following function object will insert the loading gif
         let show_loading = function (selector){
             let html = "<div class='text-center'>" +
-                "<img src='../Images/Loading_GIF.gif' alt='Content_Loading'></div>";
+                "<img src='../../Images/Loading_GIF.gif' alt='Content_Loading'></div>";
             insert_html(selector, html);
         };
 
