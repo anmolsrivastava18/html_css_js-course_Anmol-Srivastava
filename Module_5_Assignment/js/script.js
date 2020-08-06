@@ -11,14 +11,13 @@ $(function () {
 
 let dc = {};
 
-const homeHtmlUrl = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/home-snippet.html";
+const homeHtmlUrl = "snippets/home-snippet.html";
 const allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
-const categoriesTitleHtml =
-    "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/categories-title-snippet.html";
-const categoryHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/category-snippet.html";
+const categoriesTitleHtml = "snippets/categories-title-snippet.html";
+const categoryHtml = "snippets/category-snippet.html";
 const menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-const menuItemsTitleHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/menu-items-title.html";
-const menuItemHtml = "/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/snippets/menu-item.html";
+const menuItemsTitleHtml = "snippets/menu-items-title.html";
+const menuItemHtml = "snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 let insertHtml = function (selector, html) {
@@ -28,8 +27,7 @@ let insertHtml = function (selector, html) {
 
 // Show loading icon inside element identified by 'selector'.
 let showLoading = function (selector) {
-  let html = "<div class='text-center'><img src='/html_css_js-course_Anmol-Srivastava/Module_5_Assignment/" +
-      "images/ajax-loader.gif' alt='Loader_GIF'></div>";
+  let html = "<div class='text-center'><img src='images/ajax-loader.gif' alt='Loader_GIF'></div>";
   insertHtml(selector, html);
 };
 
