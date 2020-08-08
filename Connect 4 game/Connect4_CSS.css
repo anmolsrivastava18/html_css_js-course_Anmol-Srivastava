@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    padding: 30px 15px 50px 15px;
+    border-radius: 0;
+}
+
+.display-4{
+    margin: auto auto 20px;
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif, "Times New Roman";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.lead{
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: sans-serif, Calibri;
+    font-size: 20px;
+}
+
+#restart_button{
+    margin: 30px auto auto;
+    text-align: center;
+}
+
+#copyright{
+    margin: 40px auto auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif, "Times New Roman";
+    color: darkblue;
+}
+
+table{
+    text-align: center;
+    margin: 60px auto auto;
+}
+
+td{
+    padding: 0;
+    height: 102px;
+    width: 102px;
+    /*border: 2px solid red;*/
+}
