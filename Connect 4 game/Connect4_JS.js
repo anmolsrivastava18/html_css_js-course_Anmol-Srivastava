@@ -1,10 +1,17 @@
+// The script will wait for the HTML content to be loaded
 $(document).ready(function () {
+    // Greeting the players
     alert("Welcome to the Connect4 game. Have fun :D");
+
+    // Prompting the players to enter their name
     let player_1 = prompt("Player One: Enter your name, you will be Green");
     let player_2 = prompt("Player Two: Enter your Name, you will be Red");
+
+    // This variable will store the number of clicks by the users
     let click_count = 0;
 
 
+    // The following function will be used to switch the colors of the circle only when the color is lightgrey
     function change_color(table_row, column_index, color) {
         for (let i = table_row.length - 1; i >= 0; i--) {
             let table_cell = table_row.eq(i).find('td').eq(column_index).find('circle');
@@ -17,6 +24,7 @@ $(document).ready(function () {
     }
 
 
+    // The following function will return the color, which then will be passed to the 'change_color' function
     function return_color(click_count){
         if (click_count % 2 === 0){
             return 'green'
@@ -26,7 +34,7 @@ $(document).ready(function () {
         }
     }
 
-
+    // The following function will return the player whose turn is next
     function return_player(click_count){
         if (click_count % 2 === 0){
             return player_1
@@ -37,6 +45,7 @@ $(document).ready(function () {
     }
 
 
+    //  The following function will determine if any user won the game
     function is_win(table_row){
         let fill_1, fill_2, fill_3, fill_4;
 
@@ -93,24 +102,40 @@ $(document).ready(function () {
         }
     }
 
-
+    //  The very first notification
     $('#notifier').text(player_1 + ": First turn is yours... Click any cell!").css('color', 'green');
 
+    //  The following block is the game logic and will invoke different functions to play the game
     $('circle').click(function () {
         let player = return_player(click_count);
         let color = return_color(click_count);
         let column_index = $(this).closest("td").index();
         let table_row = $('tr');
+
+        //  The following block of code will ensure that the turn doesn't pass to another player if one of the players
+        //  click on the already filled top-most circle.
+        let top_row_cell = table_row.eq(0).find('td').eq(column_index).find('circle');
+        let color_fill = top_row_cell.css('fill');
+        if (color_fill !== 'rgb(211, 211, 211)'){
+            click_count -= 1;
+        }
+
+        //  Call to the 'change_color' function
         change_color(table_row, column_index, color);
         if (is_win(table_row)){
             $('#notifier').text(player + ": Congratulations! You have won :D");
-            $('table').fadeOut(1500);
+            $('table').fadeOut(2000);
         }
         else {
             click_count += 1;
             player = return_player(click_count);
             color = return_color(click_count);
             $('#notifier').text(player + ": It's your turn now. Click any cell!").css('color', color);
+        }
+
+        if (click_count === 42){
+            $('#notifier').text("Guys, it's a draw!");
+            $('table').fadeOut(2000);
         }
     });
 
