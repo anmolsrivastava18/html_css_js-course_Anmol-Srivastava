@@ -66,8 +66,31 @@ $(document).ready(function () {
             }
         }
 
-        // Diagonal win
+        // Negative slope Diagonal win
+        for (let i = 0; i < 3; i++){
+            for (let j = 0; j < 4; j++){
+                fill_1 = table_row.eq(i).find('td').eq(j).find('circle').css('fill');
+                fill_2 = table_row.eq(i + 1).find('td').eq(j + 1).find('circle').css('fill');
+                fill_3 = table_row.eq(i + 2).find('td').eq(j + 2).find('circle').css('fill');
+                fill_4 = table_row.eq(i + 3).find('td').eq(j + 3).find('circle').css('fill');
+                if (fill_1 === fill_2 && fill_1 === fill_3 && fill_1 === fill_4 && fill_1 !== 'rgb(211, 211, 211)'){
+                    return true
+                }
+            }
+        }
 
+        // Positive slope Diagonal win
+        for (let i = 0; i < 3; i++){
+            for (let j = 6; j > 2; j--){
+                fill_1 = table_row.eq(i).find('td').eq(j).find('circle').css('fill');
+                fill_2 = table_row.eq(i + 1).find('td').eq(j - 1).find('circle').css('fill');
+                fill_3 = table_row.eq(i + 2).find('td').eq(j - 2).find('circle').css('fill');
+                fill_4 = table_row.eq(i + 3).find('td').eq(j - 3).find('circle').css('fill');
+                if (fill_1 === fill_2 && fill_1 === fill_3 && fill_1 === fill_4 && fill_1 !== 'rgb(211, 211, 211)'){
+                    return true
+                }
+            }
+        }
     }
 
 
