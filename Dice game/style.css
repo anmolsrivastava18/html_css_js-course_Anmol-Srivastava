@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back_image.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato, sans-serif;
@@ -70,7 +70,8 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    /*color: #EB4D4D;*/
+    color: green;
     top: -7px;
     right: 10px;
 }
@@ -170,7 +171,7 @@ input{
 #max_score{
     width: 100%;
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     text-align: center;
 }
 
